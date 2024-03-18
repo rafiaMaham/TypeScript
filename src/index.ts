@@ -46,31 +46,42 @@
 
 //OBJECT
 
-type Obj = {
-    height: number;
-    weight: number;
-    gender?: boolean
-}
+// type Obj = {
+//     height: number;
+//     weight: number;
+//     gender?: boolean
+// }
 
- const obj1 : Obj= {
-    height: 5,
-    weight: 10,
-    gender: true
- }
+//  const obj1 : Obj= {
+//     height: 5,
+//     weight: 10,
+//     gender: true
+//  }
 
-  const obj2 : Obj= {
-    height: 55,
-    weight: 100,
+//   const obj2 : Obj= {
+//     height: 55,
+//     weight: 100,
     
- }
+//  }
 
 
- interface Obj2 {
-     height: 5,
-    weight: 10,
-    gender: true
- }
+//  interface Obj2 {
+//      height: 5,
+//     weight: 10,
+//     gender: true
+//  }
 
 
 
+//Functions
 
+// type functype = (n :number, m:number, l?:number) => number
+
+// const func: functype = (a,b,l) =>{
+//     if(typeof l === "undefined") return a *b
+//     return a + b *l
+// }
+
+
+
+// func(25,23)
