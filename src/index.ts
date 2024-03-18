@@ -36,11 +36,41 @@
 
 
 //ARRAYS
-const arr: number[] = [12,13,14,15];
-const arr1: string[] = ["12", "hi"];
+// const arr: number[] = [12,13,14,15];
+// const arr1: string[] = ["12", "hi"];
 
-const arr2: Array<string> = []
-const arr3: Array<string | number> = [45, "hi"];
+// const arr2: Array<string> = []
+// const arr3: Array<string | number> = [45, "hi"];
+
+
+
+//OBJECT
+
+type Obj = {
+    height: number;
+    weight: number;
+    gender?: boolean
+}
+
+ const obj1 : Obj= {
+    height: 5,
+    weight: 10,
+    gender: true
+ }
+
+  const obj2 : Obj= {
+    height: 55,
+    weight: 100,
+    
+ }
+
+
+ interface Obj2 {
+     height: 5,
+    weight: 10,
+    gender: true
+ }
+
 
 
 
