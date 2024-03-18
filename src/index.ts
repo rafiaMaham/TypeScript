@@ -21,15 +21,26 @@
 
 //type Alias
 
-type userName = string
-type userName2 = string | number
+// type userName = string
+// type userName2 = string | number
 
-let a: userName = "maha"
-let b: userName2 = 25
+// let a: userName = "maha"
+// let b: userName2 = 25
 
-type useName3 = (n:number, m:number) => number;
+// type useName3 = (n:number, m:number) => number;
 
-const func: useName3 = (n, m)=>{
-    console.log(n,m)
-    return n * m
-}
+// const func: useName3 = (n, m)=>{
+//     console.log(n,m)
+//     return n * m
+// }
+
+
+//ARRAYS
+const arr: number[] = [12,13,14,15];
+const arr1: string[] = ["12", "hi"];
+
+const arr2: Array<string> = []
+const arr3: Array<string | number> = [45, "hi"];
+
+
+
