@@ -85,3 +85,14 @@
 
 
 // func(25,23)
+
+
+//Rest Operator
+
+// type funcType = (...m: number[]) => number[]
+
+// const func:funcType = (...m)=>{
+//     return m
+// }
+
+// func(2,3,4,5,6,7,8)
